@@ -6,7 +6,7 @@
   <groupId>org.example.app-example</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.4</version>
+  <version>1.5</version>
 
   <name>JaCoCo Examples :: app-example :: parent</name>
 
