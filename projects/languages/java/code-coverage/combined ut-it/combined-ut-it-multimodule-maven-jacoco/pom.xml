@@ -6,7 +6,7 @@
   <groupId>org.example.app-example</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>JaCoCo Examples :: app-example :: parent</name>
 
@@ -25,6 +25,9 @@
          the same report, so that, it will give the cross-module code coverage. -->
     <sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
     <sonar.language>java</sonar.language>
+    <!--
+    <sonar.projectKey>combined_it_ut_maven</sonar.projectKey>
+    -->
   </properties>
 
   <dependencies>
